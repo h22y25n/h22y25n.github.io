@@ -102,6 +102,6 @@ toc: true
 
 
 
-## 📖 Reference
+## 📖 참고 자료
 
 [Windows 개발자 센터: Progress controls](https://docs.microsoft.com/ko-kr/windows/uwp/design/controls-and-patterns/progress-controls)

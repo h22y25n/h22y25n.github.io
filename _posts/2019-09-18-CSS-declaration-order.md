@@ -83,7 +83,7 @@ CSS를 작업하다보면 하나의 클래스에 여러개 속성을 선언하�
 
 
 
-## 📖 Reference
+## 📖 참고 자료
 
 * [NHN 마크업 코딩 컨벤션](https://nuli.navercorp.com/sharing/fe/coding)
 * [Web Standard Darum](http://darum.daum.net/convention/css/css_convention)
