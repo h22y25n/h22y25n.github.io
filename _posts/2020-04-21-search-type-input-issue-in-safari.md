@@ -1,5 +1,5 @@
 ---
-title: "input tpe="search"일 경우 safari에서 스타일링 문제 해결"
+title: "input type이 search일 경우 safari에서 스타일링 문제 해결"
 categories:
   - HTML/CSS
 tags:
