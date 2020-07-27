@@ -1,5 +1,5 @@
 ---
-title: "ootstrap 테마 설정"
+title: "Bootstrap 테마 설정"
 categories:
   - Framework's
 tags:

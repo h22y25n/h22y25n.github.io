@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .archive {
-  margin-top: 1em;
+  margin-top: 1.5rem;
   margin-bottom: 2em;
 
   @include breakpoint($large) {
@@ -24,6 +24,7 @@
   a {
     position: relative;
     z-index: 10;
+    font-weight: 500;
   }
 
   a[rel="permalink"] {
@@ -74,7 +75,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   & + p {
     text-indent: 0;
@@ -211,7 +212,7 @@
 
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-6;
+      font-size: $type-size-5;
     }
   }
 
