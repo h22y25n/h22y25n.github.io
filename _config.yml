@@ -95,13 +95,13 @@ analytics:
 author:
   name             : "희연"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "웹 프론트엔드 기술에 관심이 많은 디자이너입니다. <br/> front-end dev 👩🏻‍💻 / UX 📐 / visual-design 🎨 "
+  location         : "Seoul"
   email            :
   links:
-    - label: "Email"
+    - label: "k.h22y25n@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:k.h22y25n@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -113,10 +113,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/h22y25n"
+    - label: "Dribble"
+      icon: "fab fa-fw fa-basketball-ball"
+      url: "https://dribbble.com/search/h22y25n"
 
 # Site Footer
 footer:
