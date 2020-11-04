@@ -85,7 +85,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
+  provider               : google-gtag # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : 'G-E3FQKGF7W9'
     anonymize_ip         : false # true, false (default)
@@ -114,7 +114,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/h22y25n"
-    - label: "Dribble"
+    - label: "Dribbble"
       icon: "fab fa-fw fa-basketball-ball"
       url: "https://dribbble.com/search/h22y25n"
 
