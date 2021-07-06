@@ -5,9 +5,10 @@ categories:
 tags:
   - webpack
 toc: true
+toc_sticky: true
 ---
 
-# 웹팩이란? 
+# 웹팩이란?
 
 module bundler. 자바스크립트, CSS, image등을 통합해서 효율적으로 관리해주는 도구. workflow를 자동화해주고 라이브러리를 통합 혹은 번들링 해준다. 비슷한 역할을 하는 grunt, gulp 등이 있음.
 Nodejs를 이용해 만들어졌고, npm(Node Package Manager, 일종의 installer)을 사용하고 있기 때문에 두가지가 설치되어 있어야 한다.
@@ -33,7 +34,7 @@ Nodejs를 이용해 필요한 라이브러리를 다운받고 설치, 조작하�
 
 ```bash
 npm init
-or 
+or
 npm init -y
 ```
 
@@ -92,11 +93,11 @@ npm install --save-dev webpack webpack-cli webpack-dev-server
 >
 >    - Dependency: 웹 애플리케이션에 필수적으로 필요한 주된 애플리케이션 라이브러리
 >    - devDependency는 웹프로젝트에 부수적으로 필요한 라이브러리
-> 
+>
 >3. 설치 명령어
 >
->    프로덕션 번들에 번들로 제공 될 패키지를 설치할 때는 `npm install --save`를 사용 해야한다. 
-> 
+>    프로덕션 번들에 번들로 제공 될 패키지를 설치할 때는 `npm install --save`를 사용 해야한다.
+>
 >    개발 목적 (예 : 린터, 테스트 라이브러리 등)으로 패키지를 설치하는 경우 `npm install --save-dev`를 사용해야한다. 자세한 내용은 [npm 설명서](https://docs.npmjs.com/cli/install)를 참조하라.
 
 ### `webpack.config.js` 파일 생성 및 설정
@@ -105,7 +106,7 @@ webpack의 설정을 정의하는 파일.
 
 이후 assets 파일들을 `/src(source)` 폴더에 저장하면 웹팩의 규칙대로 자동으로 CSS, java script, image 파일이 컴파일 및 번들링되어 최종 빌드 폴더 `/dist(distribution)`에 `app.bundle.js`파일을 생성하게 된다.
 
-1. `webpack.config.js` 에서 입력 파일과 출력 파일 경로 지정 
+1. `webpack.config.js` 에서 입력 파일과 출력 파일 경로 지정
 
     ```bash
     const path = require('path');

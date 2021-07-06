@@ -7,6 +7,7 @@ tags:
   - CSS
   - SCSS
 toc: true
+toc_sticky: true
 ---
 
 일반적으로 html파일에서 CSS 파일은 `<head>` 섹션에 링크를 걸고, javascript는 `<body>` 섹션에 그 소스 링크를 걸어둔다. 그런데 webpack에서는 이 CSS와 javascript를 하나의 번들로 통합할 수 있다.
@@ -87,7 +88,7 @@ import '../scss/style.scss'
 
 `npm run dev`, `npm start` 한 후 `index.html` 을 실행하면 `h1` 의 폰트 컬러가 변경된것을 확인할 수 있다.
 
-> 실행된 npm을 종료하려면 `ctl + C` 
+> 실행된 npm을 종료하려면 `ctl + C`
 
 
 ## Wrap Up

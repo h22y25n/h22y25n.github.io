@@ -5,6 +5,7 @@ categories:
 tags:
   - CSS Methology, BEM
 toc: true
+toc_sticky: true
 ---
 
 BEM을 익히기 위해 [BEM Methology](https://en.bem.info/methodology/) 사이트를 번역하며 학습/정리 한 내용!
@@ -318,7 +319,7 @@ BEM 관점에서 모디파이어는 수정된 블록 또는 엘리먼트에서 �
 </div>
 ```
 
-예를들어, `search-form` 블록과 `header` 블록의 `search-form` 엘리먼트의 동작과 스타일을 결합시킨다. 이러한 접근방식은 `search-form` 블록 자체는 범용적으로 사용하면서 `header__search-form` 엘리먼트에 외부 영역과 포지셔닝을 설정할 수 있습니다. 결과적으로 패딩 값을 특정하지 않기때문에 블록을 어느 환경에서든 사용할 수 있게됩니다. 우리는 이를 독립성 이라고 부릅니다. 
+예를들어, `search-form` 블록과 `header` 블록의 `search-form` 엘리먼트의 동작과 스타일을 결합시킨다. 이러한 접근방식은 `search-form` 블록 자체는 범용적으로 사용하면서 `header__search-form` 엘리먼트에 외부 영역과 포지셔닝을 설정할 수 있습니다. 결과적으로 패딩 값을 특정하지 않기때문에 블록을 어느 환경에서든 사용할 수 있게됩니다. 우리는 이를 독립성 이라고 부릅니다.
 
 ## File Structure
 

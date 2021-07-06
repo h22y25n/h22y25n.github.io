@@ -6,6 +6,7 @@ tags:
   - CSS
   - HTML
 toc: true
+toc_sticky: true
 ---
 
 사내 스터디를 위한 CSS 기초 지식을 정리 해본다. 그저 당연하게 사용하는것들에 대해 다시 곱씹어보는 계기가 되는것 같다 👏

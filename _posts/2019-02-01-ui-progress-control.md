@@ -6,6 +6,7 @@ tags:
   - UI&UX
   - Design
 toc: true
+toc_sticky: true
 ---
 
 진행률 컨트롤 (Progress control)은 긴 작업을 진행중인 사용자에게 피드백을 제공한다. 진행률 표시가 표시될 때 사용자가 앱을 조작할 수 없다는 의미이며 사용되는 표시기에 따라 대기 시간을 예측할 수 있다는 의미이다.

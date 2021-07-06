@@ -6,6 +6,7 @@ tags:
   - VScode
   - Sass
 toc: true
+toc_sticky: true
 ---
 
 Sass를 컴파일하기 위해 프롬프트에 직접 명령을 입력하는 방법, 기타 확장 프로그램을 사용하는 방법이 있다. VSCode의 확장 프로그램을 이용하면 버튼 한번으로 Sass파일의 변경을 지켜볼 수 있으니 훨씬 편한 작업 환경을 구축할 수 있다. 내가 사용하는 VScode의 [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)를 사용한 컴파일 방법과 설정을 정리한다.
@@ -33,16 +34,16 @@ VSCode에 설치한 확장 프로그램들에 대한 설정은 **`preference > s
 
   * CSS 파일의 유형
 
-    * `.css` 
+    * `.css`
     * `.min.css`
 
   * 컴파일 된 CSS 파일이 저장될 위치
 
-    * `null` : scss/sass 파일이 위치한 폴더에 CSS를 생성한다 
+    * `null` : scss/sass 파일이 위치한 폴더에 CSS를 생성한다
 
     * `/`: 제일 상위(root)에서부터 디렉토리를 지정한다
 
-    * `~`:파일이 위치한 곳을 기준으로 디렉토리를 지정한다 
+    * `~`:파일이 위치한 곳을 기준으로 디렉토리를 지정한다
 
    ```json
    "liveSassCompile.settings.formats":[
@@ -72,9 +73,9 @@ VSCode에 설치한 확장 프로그램들에 대한 설정은 **`preference > s
   * 기본 설정:
 
     ```json
-    "liveSassCompile.settings.excludeList": [ 
+    "liveSassCompile.settings.excludeList": [
       "**/node_modules/**",
-      ".vscode/**" 
+      ".vscode/**"
     ]
     ```
 

@@ -6,6 +6,7 @@ tags:
   - Framework
   - Bootstrap
 toc: true
+toc_sticky: true
 ---
 테마와 구성 요소의 변경을 쉽게 하기 위한 글로벌 스타일 설정이 가능합니다. 새로운 빌트인 Sass 변수를 사용하여 Bootstrap 4를 정의하세요.
 
@@ -105,7 +106,7 @@ Bootstrap4에는 관련된 CSS를 쉽게 생성할 수 있도록 도와주는 Sa
 $theme-colors: (
   "primary": #0074d9,
   "danger": #ff4136
-);	
+);
 ```
 
 #### Add to map
