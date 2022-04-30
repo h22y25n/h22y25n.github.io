@@ -115,7 +115,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/h22y25n"
     - label: "Dribbble"
-      icon: "fab fa-fw fa-basketball-ball"
+      icon: "fa-solid fa-basketball"
       url: "https://dribbble.com/h22y25n"
     - label: "Figma"
       icon: "fab fa-brands fa-figma"
