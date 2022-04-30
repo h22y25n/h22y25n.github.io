@@ -25,6 +25,11 @@
     position: relative;
     z-index: 10;
     font-weight: 500;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   a[rel="permalink"] {
@@ -36,6 +41,7 @@
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
+  font-weight: 400;
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
@@ -183,17 +189,17 @@
 
     &:nth-child(4n + 2) {
       clear: none;
-      margin-left: gutter(1 of 12);
+      margin-left: gutter(2 of 12);
     }
 
     &:nth-child(4n + 3) {
       clear: none;
-      margin-left: gutter(1 of 12);
+      margin-left: gutter(2 of 12);
     }
 
     &:nth-child(4n + 4) {
       clear: none;
-      margin-left: gutter(1 of 12);
+      margin-left: gutter(2 of 12);
     }
   }
 
@@ -212,7 +218,7 @@
 
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-5;
+      font-size: $type-size-6;
     }
   }
 

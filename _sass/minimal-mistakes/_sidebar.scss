@@ -7,6 +7,8 @@
    ========================================================================== */
 
 .sidebar {
+  padding-right: 1rem;
+
   @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
@@ -43,6 +45,18 @@
   > * {
     margin-top: 1em;
     margin-bottom: 1em;
+  }
+
+  @include breakpoint($medium) {
+    > * {
+      margin-top: 2rem;
+    }
+  }
+
+  @include breakpoint($small) {
+    > * {
+      margin-top: 2rem;
+    }
   }
 
   h2,
