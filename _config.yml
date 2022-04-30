@@ -117,6 +117,9 @@ author:
     - label: "Dribbble"
       icon: "fab fa-fw fa-basketball-ball"
       url: "https://dribbble.com/h22y25n"
+    - label: "Figma"
+      icon: "fab fa-brands fa-figma"
+      url: "https://www.figma.com/@k_h22y25n"
 
 # Site Footer
 footer:
