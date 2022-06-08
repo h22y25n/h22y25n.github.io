@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "희연"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "정밀한 UI와 견고한 UX를 고민합니다. <br/> 사람들에게 더 좋은 영향을 주기 위해 문제를 해결하고 디자인 합니다. <br/> front-end dev 👩🏻‍💻 / UX 📐 / visual-design 🎨 "
+  bio              : "정밀한 UI와 견고한 UX를 고민합니다. <br/> 사람들에게 더 좋은 영향을 주기 위해 문제를 해결하고 디자인 합니다. <br/> frontend 👩🏻‍💻 / UX 📐 / visual-design 🎨 "
   location         : "Seoul"
   email            :
   links:
